@@ -1,4 +1,4 @@
-# URcade's arcade button led controller with Arduino
+# URcade LED Controller
 URCade's emulator based arcade button led controller with Arduino
 
 ## How it works
