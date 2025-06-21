@@ -5,8 +5,8 @@ Check [URCade](https://urcade-files.ddns.net) project if you want to use our own
 
 ## How it works
 - You need a daemon installed on you emulator machine that will detect the emulator being launched and send the corresponding number of active buttons for that emulator to the arduino, as exemplified in [urcade-leds-daemon.sh](urcade-leds-daemon.sh). The arduino will receive the number of buttons related to the launched emulator and light up only the active buttons;
-- The mode toggle button will cycle between differente light effects (all up, random effects, all off);
-- The hitbox button will let you use a hitbox on the fly.
+- The mode button will cycle between differente light effects (all up, random effects, all off);
+- The hitbox toggle will let you use a hitbox on the fly.
 
 ## Possible configurations
 You can use any of the 6 configurations:
