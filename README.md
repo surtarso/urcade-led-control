@@ -1,5 +1,7 @@
 # URcade LED Controller
-URCade's emulator based arcade button led controller with Arduino
+URCade's emulator based arcade button led controller with Arduino.
+
+Check [URCade](https://urcade-files.ddns.net) project if you want to use our own pre-configured daemon.
 
 ## How it works
 - You need a daemon installed on you emulator machine that will detect the emulator being launched and send the corresponding number of active buttons for that emulator to the arduino, as exemplified in [urcade-leds-daemon.sh](urcade-leds-daemon.sh). The arduino will receive the number of buttons related to the launched emulator and light up only the active buttons;
